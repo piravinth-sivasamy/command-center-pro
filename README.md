@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+🚀 Command Center Pro: Habit & Mission Tracker
+Command Center Pro is a high-performance React.js dashboard designed to bridge the gap between daily habit formation and one-time task management. Built with a focus on Glassmorphism UI and State Persistence, this app serves as a centralized hub for personal productivity.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🌟 Key Features
+🛠 Dual-Engine Task Management
+Unlike standard to-do lists, this app features two distinct logic engines:
 
-## Available Scripts
+Daily Rituals (Habit Tracker): Tasks that automatically reset every 24 hours. Ideal for recurring goals like "Drink 5L Water" or "Exercise."
 
-In the project directory, you can run:
+One-Time Missions (Task Mastery): Standard tasks with "Ongoing" and "Completed" filtering, allowing users to focus on current objectives without losing track of accomplishments.
 
-### `npm start`
+🌗 Adaptive Theme Engine
+Dark/Light Mode: A fully integrated theme toggle that persists across browser sessions using localStorage.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Glassmorphism Design: A modern, frosted-glass aesthetic with dynamic gradients and smooth CSS transitions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🏆 Tri-Level Motivation System
+The app features a "Calculated Property" logic that monitors the state of all tasks to provide real-time encouragement:
 
-### `npm test`
+Mission Clear: Triggered when all one-time tasks are finished.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Habit Hero: Triggered when all daily rituals are completed.
 
-### `npm run build`
+Grand Master: A special achievement banner when the entire board is cleared.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+💾 Smart Persistence & Editing
+Auto-Save: Powered by localStorage, ensuring your data remains intact even after a page refresh.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Inline Editing: A seamless UX pattern allowing users to rename missions instantly by clicking the text.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Daily Reset Logic: Uses the JavaScript Date object to compare timestamps and reset habits at midnight.
 
-### `npm run eject`
+💻 Tech Stack
+Frontend: React.js (Hooks: useState, useEffect)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Styling: Modern CSS-in-JS (Dynamic Object Styles)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Storage: Browser Local Storage API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Deployment: Vercel
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🚀 How to Run Locally
+Clone the repository:
+git clone https://github.com/YOUR_USERNAME/command-center.git
 
-## Learn More
+Install dependencies:
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the development server:
+npm run dev
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Why I Built This
+This project was developed to master Complex State Management in React. It demonstrates the ability to handle multiple data streams (Habits vs. Tasks) within a single unified state, while maintaining a clean, professional, and accessible User Interface.
