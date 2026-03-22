@@ -1,4 +1,5 @@
-🚀 Command Center Pro: Habit & Mission Tracker
+🚀 Command Center Pro:
+Habit & Mission Tracker
 Command Center Pro is a high-performance React.js dashboard designed to bridge the gap between daily habit formation and one-time task management. Built with a focus on Glassmorphism UI and State Persistence, this app serves as a centralized hub for personal productivity.
 
 🌟 Key Features
