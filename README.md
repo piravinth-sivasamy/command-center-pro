@@ -2,7 +2,7 @@
 
 | Dark Mode (Default) | Light Mode |
 |---|---|
-| ![Dark Mode](./dark-mode.png) | ![Light Mode](./light-mode.png) |
+| ![Dark Mode](./Dark-Mode.png) | ![Light Mode](./Light-Mode.png) |
 
 ---
 🚀 Command Center Pro:
